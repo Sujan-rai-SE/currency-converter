@@ -1,0 +1,10 @@
+addon_name =  "PerfectCurrencyConverter"
+summary = "Perfect currency converter"
+description = """a currency converter nvda add-on that allows you to convert from multiple currencies to multiple currencies. shortcut : nvda+alt+c"""
+author = "sujan rai <sujanrai8448@gmail.com>"
+url = "https://t.me/techvisionary"
+addon_version = "0.2"
+
+minimumNVDAVersion = 2023.2
+lastTestedNVDAVersion = 2025.1
+updateChannel = None

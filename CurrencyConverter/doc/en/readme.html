@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter NVDA Add-on Documentation</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
+    h1, h2, h3 { color: #2c3e50; }
+    nav { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+    nav ul { list-style: none; padding: 0; }
+    nav ul li { display: inline; margin-right: 10px; }
+    nav ul li a { text-decoration: none; color: #2980b9; }
+    nav ul li a:hover { text-decoration: underline; }
+    section { margin-bottom: 20px; }
+    code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Currency Converter NVDA Add-on</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#configuration">Configuration</a></li>
+        <li><a href="#shortcuts">Keyboard Shortcuts</a></li>
+        <li><a href="#compatibility">Compatibility</a></li>
+        <li><a href="#developer">Developer Information</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a href="#changelog">Changelog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="overview">
+    <h2>Overview</h2>
+    <p>The Currency Converter NVDA Add-on is a professional tool designed to enhance the accessibility of currency conversion for users of the NonVisual Desktop Access (NVDA) screen reader. Developed by Sujan Rai, this add-on provides seamless conversion between multiple currencies with an intuitive interface optimized for accessibility.</p>
+  </section>
+
+  <section id="features">
+    <h2>Key Features</h2>
+    <ul>
+      <li>Supports conversion between a wide range of global currencies.</li>
+      <li>Accessible dialog-based interface for selecting currencies and inputting amounts.</li>
+      <li>Configurable default currency pair (e.g., USD to NPR).</li>
+      <li>Integration with NVDA’s tools menu and customizable keyboard shortcut (default: <code>NVDA+Alt+C</code>).</li>
+      <li>Error handling for invalid inputs or network issues during conversion.</li>
+      <li>Promotional dialog to connect users with the developer’s Telegram channel and blog.</li>
+    </ul>
+  </section>
+
+  <section id="installation">
+    <h2>Installation</h2>
+    <p>To install the Currency Converter NVDA Add-on:</p>
+    <ol>
+      <li>Download the latest stable version (0.2) from the <a href="https://github.com/Sujan-rai-SE/currency-converter/releases">official release page</a>.</li>
+      <li>Open NVDA and navigate to <em>NVDA Menu > Tools > Manage Add-ons</em>.</li>
+      <li>Select <em>Install</em> and choose the downloaded <code>.nvda-addon</code> file.</li>
+      <li>Restart NVDA to activate the add-on.</li>
+    </ol>
+  </section>
+
+  <section id="usage">
+    <h2>Usage</h2>
+    <p>To use the Currency Converter:</p>
+    <ol>
+      <li>Press <code>NVDA+Alt+C</code> or select <em>Currency Converter</em> from the NVDA Tools menu.</li>
+      <li>In the welcome dialog, choose to join the Telegram channel, read the blog, or proceed by selecting <em>No Thanks</em>.</li>
+      <li>In the conversion dialog, select the source and target currencies from dropdown menus.</li>
+      <li>Enter the amount to convert using the spin control.</li>
+      <li>Click <em>Convert</em> to view the result or <em>Exit</em> to close the dialog.</li>
+      <li>Results are displayed in a read-only text area with options to go back or exit.</li>
+    </ol>
+  </section>
+
+  <section id="configuration">
+    <h2>Configuration</h2>
+    <p>The add-on allows customization of default currency pairs:</p>
+    <ul>
+      <li>Default source currency: <code>USD</code></li>
+      <li>Default target currency: <code>NPR</code></li>
+      <li>Modify these settings via the add-on’s configuration file or through the conversion dialog.</li>
+    </ul>
+    <p>Keyboard shortcuts can be customized via <em>NVDA Menu > Preferences > Input Gestures > Currency Converter</em>.</p>
+  </section>
+
+  <section id="shortcuts">
+    <h2>Keyboard Shortcuts</h2>
+    <p>The default shortcut to open the Currency Converter is:</p>
+    <ul>
+      <li><strong>Open Currency Converter:</strong> <code>NVDA+Alt+C</code></li>
+    </ul>
+    <p>Additional shortcuts within dialogs:</p>
+    <ul>
+      <li><strong>Escape:</strong> Close the current dialog.</li>
+      <li><strong>Enter:</strong> Activate the focused button (e.g., Convert, Exit).</li>
+    </ul>
+  </section>
+
+  <section id="compatibility">
+    <h2>Compatibility</h2>
+    <p>The Currency Converter NVDA Add-on is compatible with:</p>
+    <ul>
+      <li>NVDA version 2023.2 and later.</li>
+      <li>Windows operating systems supported by NVDA.</li>
+    </ul>
+    <p>Ensure you have an active internet connection for real-time currency conversion data.</p>
+  </section>
+
+  <section id="developer">
+    <h2>Developer Information</h2>
+    <p><strong>Author:</strong> Sujan Rai</p>
+    <p><strong>Contact:</strong> Connect with the developer for updates and resources:</p>
+    <ul>
+      <li><strong>Telegram:</strong> <a href="https://t.me/techvisionary">Join TechVisionary Channel</a></li>
+      <li><strong>Blog:</strong> <a href="https://techvisionaryarticles.blogspot.com">TechVisionary Articles</a></li>
+    </ul>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+    <p>For issues or feature requests, please visit the <a href="https://github.com/sujanrai/currency-converter-nvda-add-on">GitHub repository</a> to file an issue or contact the developer via Telegram.</p>
+    <p>Ensure you provide detailed information about the issue, including NVDA version, add-on version, and steps to reproduce.</p>
+  </section>
+</body>
+</html>
